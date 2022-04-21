@@ -1,0 +1,72 @@
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], input[type=email], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  h1{
+      align-content: center;
+      color: #E50914;
+      text-align: center;
+      
+  }
+  nav{
+      box-sizing: border-box;
+      padding: 0% !important;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+  }
+  /* Style the submit button with a specific background color etc */
+  input[type=button] {
+    background-color:white;
+    color: #E50914;
+    /* color:black; */
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  
+    
+  
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=button]:hover {
+    background-color: darkolivegreen;
+    
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    /* background-color:rgb(68, 66, 66); */
+    width: 60%;
+    background-color: #ad131b;
+    padding: 50px;
+    margin-left: 18%;
+    margin-right: 25%;
+    align-content: center;
+    position:relative;
+  }
+  body {
+      display: block;
+      /* margin: 10%; */
+      background-color: black;
+      /* background-color: lightgray; */
+     
+  }
+  .addr1{
+    color: white;
+   
+  }
+  .th_nm{
+    color:#E50914;
+    font-size: 25px;
+  }
